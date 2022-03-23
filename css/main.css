@@ -43,3 +43,6 @@ body{
     padding: 60px;
     background-color: #fff;
 }
+.close-button {
+    width: 100%;
+}
