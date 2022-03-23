@@ -23,4 +23,4 @@ Design: [Sign up](https://cdn.discordapp.com/attachments/850245533838868480/8502
 
 ## Authors
 
-Rimantas: [Github](https://github.com/AlmiraJasin)
+AlmiraJasin: [Github](https://github.com/AlmiraJasin)
