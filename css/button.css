@@ -1,0 +1,19 @@
+.btn {
+    font-size: 16px;
+    line-height: 25px;
+    padding: 8px 30px;
+    border-radius: 25px;
+    border-color: #0753DB;
+    color: #fff;
+    text-transform: capitalize;
+    cursor: pointer;
+    background: rgb(27,20,144);
+    background: linear-gradient(
+        90deg, 
+        #0753DB 0%,  
+        #0164DB 100%
+        );
+}
+.btn:hover {
+    background-color: #0065DB;
+}

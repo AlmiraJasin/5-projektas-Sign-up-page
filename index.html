@@ -13,15 +13,47 @@
     <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/button.css">
+    <link rel="stylesheet" href="./css/form.css">
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
     <div class="container">
         <div class="left-column">
-            LEFT
+            <h1 class="main-title">Sign up</h1>
+            <footer class="bottom-links">
+                <a href="#" class="link">Privacy policy</a>
+                &amp;
+                <a href="#" class="link">terms of service</a>
+            </footer>
         </div>
         <div class="right-column">
-            RIGHT
+            <div class="close-button">x</div>
+            
+            <form class="form">
+                <div class="form-row">
+                    <label for="username" class="label">Username</label>
+                    <input id="username" type="text" class="input" required>
+                </div>
+                <div class="form-row">
+                    <label for="email" class="label">E-mail</label>
+                    <input id="email" type="email" class="input">
+                </div>
+                <div class="form-row">
+                    <label for="password" class="label">Password</label>
+                    <input id="password" type="password" class="input">
+                </div>
+                <div class="form-row">
+                    <label for="re-password" class="label">Repeat password</label>
+                    <input id="re-password" type="password" class="input">
+                </div>
+                <div class="form-row">
+                    <button type="submit" class="btn">Get started</button>
+                    <span>or</span>
+                    <a href="#">Sign in</a>
+                </div>
+            </form>
         </div>
     </div>
 </body>
